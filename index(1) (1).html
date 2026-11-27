@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>English Step by Step | آموزش انگلیسی</title>
+<style>
+:root{--ink:#172033;--muted:#667085;--bg:#f5f7fb;--card:#fff;--accent:#635bdb;--accent2:#14b8a6;--line:#e6eaf2}
+*{box-sizing:border-box}body{margin:0;font-family:Tahoma,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.8}
+header{background:linear-gradient(135deg,#292b67,#635bdb);color:#fff;padding:36px 18px 28px;text-align:center}
+header h1{font-size:clamp(24px,5vw,38px);margin:0 0 8px}header p{margin:0;color:#e6e7ff}
+nav{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;background:#fff;padding:12px;position:sticky;top:0;z-index:5;box-shadow:0 3px 12px #17203312}
+nav button{border:0;border-radius:20px;padding:10px 15px;background:#eef0ff;color:#36347b;font-weight:bold;cursor:pointer}
+nav button.active,nav button:hover{background:var(--accent);color:#fff}
+main{max-width:950px;margin:24px auto;padding:0 14px}.panel{display:none}.panel.active{display:block}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;margin:14px 0;box-shadow:0 5px 20px #17203308}
+h2{margin-top:0;color:#37357c}h3{margin-bottom:5px}.muted{color:var(--muted)}
+.pill{display:inline-block;background:#e8f8f5;color:#087c6b;padding:3px 10px;border-radius:20px;font-size:13px}
+.words{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.word{background:#f7f8ff;border-radius:12px;padding:12px}.word strong{display:block;direction:ltr;text-align:left;font-size:18px}
+button.action{background:var(--accent);color:#fff;border:0;border-radius:12px;padding:11px 17px;cursor:pointer;font-weight:bold}
+input{font:inherit;padding:10px;border:1px solid #ccd3e0;border-radius:10px;width:min(100%,450px)}
+.feedback{font-weight:bold;margin-top:10px}.good{color:#0b856e}.bad{color:#b54708}
+footer{text-align:center;color:var(--muted);padding:28px}
+@media(max-width:600px){.card{padding:16px}nav button{padding:8px 12px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>English Step by Step</h1>
+  <p>انگلیسی را قدم‌به‌قدم یاد بگیریم — از پایه</p>
+</header>
+<nav aria-label="Navigation">
+  <button class="active" onclick="showPanel('home',this)">خانه</button>
+  <button onclick="showPanel('vocab',this)">لغات</button>
+  <button onclick="showPanel('grammar',this)">گرامر</button>
+  <button onclick="showPanel('practice',this)">تمرین</button>
+  <button onclick="showPanel('plan',this)">مسیر یادگیری</button>
+</nav>
+<main>
+<section id="home" class="panel active">
+  <div class="card">
+    <span class="pill">Beginner · A1/A2</span>
+    <h2>به مسیر یادگیری انگلیسی خوش آمدی!</h2>
+    <p>در این سایت، واژگان، گرامر و جمله‌سازی را با توضیح فارسی و تمرین کوتاه یاد می‌گیری.</p>
+    <h3>درس امروز: جمله‌های ساده</h3>
+    <p dir="ltr"><strong>I study English every day.</strong></p>
+    <p>من هر روز انگلیسی مطالعه می‌کنم.</p>
+    <p dir="ltr"><strong>She is reading a book.</strong></p>
+    <p>او در حال خواندن کتاب است.</p>
+  </div>
+  <div class="card"><h2>روش استفاده</h2><ol><li>لغات را بخوان و با صدای بلند تکرار کن.</li><li>مثال گرامر را مرور کن.</li><li>تمرین کوتاه را انجام بده.</li><li>یک جمله درباره زندگی خودت بنویس.</li></ol></div>
+</section>
+<section id="vocab" class="panel">
+  <div class="card"><h2>واژگان روزمره</h2><div class="words">
+    <div class="word"><strong>book</strong>کتاب</div><div class="word"><strong>pen</strong>خودکار</div>
+    <div class="word"><strong>water</strong>آب</div><div class="word"><strong>friend</strong>دوست</div>
+    <div class="word"><strong>family</strong>خانواده</div><div class="word"><strong>school</strong>مدرسه</div>
+    <div class="word"><strong>learn</strong>یاد گرفتن</div><div class="word"><strong>practice</strong>تمرین کردن</div>
+    <div class="word"><strong>today</strong>امروز</div><div class="word"><strong>tomorrow</strong>فردا</div>
+  </div></div>
+</section>
+<section id="grammar" class="panel">
+  <div class="card"><h2>گرامر: حال ساده (Present Simple)</h2>
+  <p>برای عادت‌ها، برنامه‌های روزانه و واقعیت‌ها استفاده می‌شود.</p>
+  <p dir="ltr"><strong>I / You / We / They + verb</strong></p><p>برای he / she / it معمولاً به فعل s اضافه می‌کنیم.</p>
+  <ul><li dir="ltr">I study English.</li><li dir="ltr">She studies English.</li><li dir="ltr">They play football.</li><li dir="ltr">He plays football.</li></ul>
+  <h3>منفی</h3><p dir="ltr">I don't watch TV. / She doesn't watch TV.</p>
+  <h3>سؤالی</h3><p dir="ltr">Do you study? / Does she study?</p>
+  <p class="muted">نکته: بعد از does و doesn't فعل ساده می‌آید؛ بدون s.</p></div>
+  <div class="card"><h2>گرامر: گذشته ساده (Past Simple)</h2>
+  <p>برای اتفاقی که در گذشته انجام شده است.</p><ul><li dir="ltr">I watched a movie yesterday.</li><li dir="ltr">She went to school.</li><li dir="ltr">I didn't watch TV.</li><li dir="ltr">Did you study yesterday?</li></ul>
+  <p class="muted">در جمله منفی و سؤالی، بعد از did فعل به شکل ساده می‌آید.</p></div>
+</section>
+<section id="practice" class="panel">
+  <div class="card"><h2>تمرین کوتاه</h2><p>جای خالی را پر کن: <span dir="ltr"><strong>She ___ English every day.</strong></span></p>
+  <input id="answer" placeholder="جوابت را به انگلیسی بنویس" dir="ltr">
+  <p><button class="action" onclick="checkAnswer()">بررسی جواب</button></p><div id="feedback" class="feedback" aria-live="polite"></div>
+  </div>
+  <div class="card"><h3>تمرین ترجمه</h3><p>این جمله را به انگلیسی بنویس:</p><p><strong>من دیروز انگلیسی مطالعه کردم.</strong></p><p class="muted">پاسخ نمونه: I studied English yesterday.</p></div>
+</section>
+<section id="plan" class="panel">
+  <div class="card"><h2>مسیر یادگیری از پایه</h2><ol><li>حروف و صداها، سلام و معرفی</li><li>اعداد، وسایل و لغات روزمره</li><li>ضمیرها و فعل be</li><li>حال ساده و پرسش‌ها</li><li>حال استمراری</li><li>گذشته ساده و پرسش‌ها</li><li>واژگان موضوعی و مکالمه کوتاه</li><li>تمرین شنیدن، خواندن و نوشتن</li></ol><p>هر بخش را با تمرین و مرور تکمیل کن؛ لازم نیست عجله کنی.</p></div>
+</section>
+</main>
+<footer>Made for learners · یادگیری با تمرین روزانه</footer>
+<script>
+function showPanel(id,btn){document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));document.getElementById(id).classList.add('active');document.querySelectorAll('nav button').forEach(b=>b.classList.remove('active'));btn.classList.add('active');}
+function checkAnswer(){let a=document.getElementById('answer').value.trim().toLowerCase();let f=document.getElementById('feedback');if(a==='studies'){f.textContent='آفرین! جواب درست است: She studies English every day.';f.className='feedback good';}else{f.textContent='یک بار دیگر فکر کن: برای She در حال ساده چه تغییری به فعل می‌دهیم؟';f.className='feedback bad';}}
+</script>
+</body>
+</html>
